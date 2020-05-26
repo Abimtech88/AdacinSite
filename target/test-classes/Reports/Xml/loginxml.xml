@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.012104">
+    <testcase classname="Generating order no" name="test" time="0.010798">
+        <skipped>
+            <![CDATA[Given Have to open adacin page..............................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Generating order no" name="Verify Username and Password matched" time="0.001306">
+        <skipped>
+            <![CDATA[Given Have to open adacin page..............................................undefined
+When Enter "abiraghul6".....................................................undefined
+And Give "Abi3988"..........................................................undefined
+And click login.............................................................undefined
+And Give all details in search page "London","Hotel Hervey","Super Deluxe","3 - Three","23/06/2022","27/06/2022","3 - Three","2 - Two".undefined
+And click submit............................................................undefined
+And Give details in booking "Abinaya","Rithu","Karapakkam","8765432197634521","Master Card","March","2022","345".undefined
+Then click search...........................................................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>

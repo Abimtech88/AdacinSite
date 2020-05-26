@@ -1,0 +1,133 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "test",
+        "description": "",
+        "id": "generating-order-no;test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Have to open adacin page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functional"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify Username and Password matched",
+        "description": "",
+        "id": "generating-order-no;verify-username-and-password-matched;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Have to open adacin page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Enter \"abiraghul6\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Give \"Abi3988\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "click login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Give all details in search page \"London\",\"Hotel Hervey\",\"Super Deluxe\",\"3 - Three\",\"23/06/2022\",\"27/06/2022\",\"3 - Three\",\"2 - Two\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "click submit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Give details in booking \"Abinaya\",\"Rithu\",\"Karapakkam\",\"8765432197634521\",\"Master Card\",\"March\",\"2022\",\"345\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "click search",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functional"
+          }
+        ]
+      }
+    ],
+    "name": "Generating order no",
+    "description": "",
+    "id": "generating-order-no",
+    "keyword": "Feature",
+    "uri": "C:/Users/Dell/eclipse-workspace/Abi/TestNG/FirstProCucu/src/test/resources/Feature/Login.feature",
+    "tags": [
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
